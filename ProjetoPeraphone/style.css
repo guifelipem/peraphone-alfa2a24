@@ -1,19 +1,33 @@
-body {
+body{
     background-color: #f4f4f4;
 }
 
 .navbar-brand {
     background-color: #fff;
     padding: 5px 10px;
-    border-radius: 12px;
+    border-radius: 10px;
 }
 
-.navbar-brand img {
-    width: 250px;
+.navbar-brand img{
+    width: 150px;
 }
 
-h2 {
-    color: #5a5a5a;
+h2{
     padding-top: 30px;
     font-weight: bold;
-}   
+}
+
+footer{
+    background-color: #434343;
+    margin-top:50px;
+    color: #fff;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a{
+    color: #fff;
+    text-decoration: none;
+}
